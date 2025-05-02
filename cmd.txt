@@ -1,0 +1,54 @@
+hosting web using ec2.
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+cd ..
+pwd
+cd /var/www/html
+ls
+cd ..
+sudo chmod 777 html
+       or
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+sudo apt-get install ngi
+ls
+cd ..
+ls
+cd var
+ls
+cd www
+ls
+sudo chmod 777 html
+
+
+
+10>> githup to ec2 by ecurity grp and user data
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodesjs
+git clone https://github.com/Anurag629103/Anurag017.git
+cd Anurag017
+npm install
+node index.js
+
+
+11>> Build scaling plan
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt -get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt -get install -y nodejs
+git clone http://github.com/sudip7407/Repo1.git
+cd Repo 1
+npm install
+node index.js
